@@ -5,6 +5,6 @@ setup(
     version='0.0.1',
     author='Muhib Al Muntakim',
     author_email='muhibmugdha@gmail.com',
-    install_requires=["openai","langchain","streamlit","python-dotenv","PyPDF2"],
+    install_requires=["google.generativeai","langchain","streamlit","python-dotenv","PyPDF2","langchain_google_genai"],
     packages=find_packages()
 )
