@@ -1,6 +1,6 @@
 MCQ,Choices,Correct
-What is the primary focus of the workshop on Generative AI at AIMLSystems?,a: Developing and deploying Generative AI systems | b: Building and deploying models for realistic text generation | c: Training and evaluating LLMs for image generation | d: Evaluating the ethics and societal implications of Generative AI,a
-Which of the following is NOT a topic of interest for the workshop?,"a: Systems, architecture and infrastructure for Generative AI | b: Responsible use of Generative AI | c: Quantum Computing and Generative AI | d: Multi-modal Generative AI and its applications",c
-What is one of the key technologies used in Generative AI?,a: Large Language Models (LLMs) | b: Convolutional Neural Networks (CNNs) | c: Support Vector Machines (SVMs) | d: Decision Trees,a
-What is a potential concern associated with Generative AI?,a: Fairness and bias | b: Computational cost | c: Data privacy | d: All of the above,d
-What is one of the potential applications of Multi-modal Generative AI?,a: Creating personalized experiences | b: Generating synthetic data | c: Developing autonomous agents | d: All of the above,d
+What is the primary focus of the workshop on Generative AI at AIMLSystems?,a: Data collection and processing | b: Developing systems and requisite infrastructure | c: Applications enabled by Generative AI | d: All of the above,d
+What are some ethical concerns to consider when developing Generative AI systems?,a: Fairness | b: Transparency | c: Accountability | d: All of the above,d
+Which of the following is NOT a topic of interest for the workshop?,"a: Systems, architecture, and infrastructure for Generative AI | b: Machine learning and Modeling using LLMs and Diffusion models | c: Large Language Models and its applications | d: Natural Language Processing",d
+What type of Generative AI model is known for its ability to generate realistic text?,a: Diffusion model | b: Large Language Model (LLM) | c: Multi-modal Generative AI | d: Gen AI-based Plugins and agents,b
+Which of the following is NOT a potential application of Generative AI?,a: Content creation | b: Machine translation | c: Medical diagnosis | d: Software development,c
