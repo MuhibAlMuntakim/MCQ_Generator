@@ -7,6 +7,19 @@ from src.MCQ_Generator.utils import read_file, get_table_data
 import streamlit as st
 from src.MCQ_Generator.MCQGen import generate_evaluate_chain
 from src.MCQ_Generator.logger import logging
+import google.generativeai as genai
+
+
+# Load environment variables
+load_dotenv()
+#st.write(os.getenv("GOOGLE_API_KEY"))
+
+def get_api_key():
+    try:
+        return os.getenv("GOOGLE_API_KEY")
+    except KeyError:
+        raise ValueError("Missing GOOGLE_API_KEY environment variable")
+
 
 #loading json file
 with open('Response.json', 'r') as file:
@@ -28,8 +41,17 @@ with st.form("user input"):
     button = st.form_submit_button("Create MCQs")
 
     if button and uploaded_file is not None and mcq_count and subject and tone:
-        with st.spinner("loading..."):
+    
+         with st.spinner("loading..."):
+             
+
             try:
+
+                api_key = get_api_key()
+
+            # Configure Google Generative AI
+                genai.configure(api_key=api_key)
+                
                 text= read_file(uploaded_file)
             
                 response=generate_evaluate_chain(
@@ -45,7 +67,7 @@ with st.form("user input"):
 
             except Exception as e:
                 traceback.print_exception(type(e), e, e.__traceback__)
-                st.error("Error")
+                st.error(f"Error: {str(e)}")
 
             else:
                 
