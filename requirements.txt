@@ -1,5 +1,5 @@
 langchain
-streamlit 
+streamlit== 1.29.0
 python-dotenv
 PyPDF2
 google.generativeai

@@ -1,6 +1,6 @@
 MCQ,Choices,Correct
-What is the main focus of the workshop on Generative AI at AIMLSystems?,a: The entire life-cycle of building and deploying Generative AI systems | b: Data collection and processing | c: Developing systems and requisite infrastructure | d: Applications it enables,a
-Which topic is not included in the list of topics of interest for the workshop?,"a: Systems, architecture and infrastructure for Generative AI | b: Machine learning and Modeling using LLMs and Diffusion models | c: Large Language Models and its applications | d: Natural Language Processing",d
-What is one of the applications of Multi-modal Generative AI?,a: Image generation | b: Text generation | c: Video generation | d: All of the above,d
-What is the term used for Generative AI based Plugins and agents?,a: Gen AI Plugins | b: Gen AI Agents | c: Both a and b | d: None of the above,c
+What is the focus of the workshop on Generative AI at AIMLSystems?,a: Building and deploying Generative AI systems | b: Developing new AI algorithms | c: Exploring the ethics of AI | d: Applications of AI in healthcare,a
+Which of the following is not a topic of interest for the workshop?,"a: Systems, architecture and infrastructure for Generative AI | b: Machine learning and Modeling using LLMs and Diffusion models | c: Natural Language Processing | d: Deployment of Generative AI solutions",c
+What is one of the applications of Large Language Models (LLMs)?,a: Text generation | b: Image generation | c: Video generation | d: All of the above,d
 What is one of the ethical concerns associated with Generative AI?,a: Fairness | b: Transparency | c: Accountability | d: All of the above,d
+What is one of the ways to evaluate the performance of Generative AI models?,a: Human evaluation | b: Automatic evaluation | c: Both human and automatic evaluation | d: None of the above,c

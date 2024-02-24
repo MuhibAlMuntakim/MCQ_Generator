@@ -60,7 +60,7 @@ with st.form("user input"):
                         "number": mcq_count,
                         "subject":subject,
                         "tone": tone,
-                        "response_json": json.dumps(RESPONSE_JSON)
+                        "RESPONSE_JSON": json.dumps(RESPONSE_JSON)
                         }
                     )
                 #st.write(response)
