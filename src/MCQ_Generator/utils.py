@@ -30,8 +30,8 @@ def get_table_data(quiz_str):
         # convert the quiz from a str to dict
         start_index = quiz_str.find('{')
         end_index = quiz_str.rfind('}') + 1
-        quiz = quiz_str[start_index:end_index]
-        quiz_dict=json.loads(quiz)
+        quizzes = quiz_str[start_index:end_index]
+        quiz_dict=json.loads(quizzes)
         quiz_table_data=[]
         
         # iterate over the quiz dictionary and extract the required information

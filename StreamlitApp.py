@@ -27,6 +27,7 @@ with open('Response.json', 'r') as file:
 
 
 #creating a title for the app
+st.set_page_config(page_title="MCQ-Generator", page_icon="🤖")
 st.title("MCQs Creator Application with LangChain 🦜⛓️")
 
 with st.form("user input"):
